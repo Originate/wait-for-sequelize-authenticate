@@ -1,0 +1,11 @@
+{
+  "name": "wait-for-sequelize-authenticate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Originate/wait-for-sequelize-authenticate.git",
+  "author": "Charles Rudolph <charles.rudolph@originate.com>",
+  "license": "MIT",
+  "bin": {
+    "wait-for-sequelize-authenticate": "./cli.js"
+  }
+}
