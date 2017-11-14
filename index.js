@@ -10,7 +10,7 @@ async function connectWithRetry(sequelizeInstance, retryDelay) {
       error.toString()
     )
     await new Promise(resolve => setTimeout(resolve, retryDelay))
-    await connectWithRetry(retryDelay * 2)
+    await connectWithRetry(sequelizeInstance, retryDelay * 2)
   }
 }
 
